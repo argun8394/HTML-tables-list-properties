@@ -1,0 +1,53 @@
+h2[title="baslik1"] {
+    color: red;
+}
+
+p[title="paragraf1"] {
+    color: green;
+}
+
+a[target="_blank"] {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+
+/* Sudo Selectorler */
+
+p::first-line {
+    font-size: 25px;
+}
+
+
+/* p::first-letter {
+    font-size: 60px;
+    color: greenyellow;
+} */
+
+
+/* class ve sudo element kullanımı */
+
+.p2::first-letter {
+    font-size: 50px;
+    color: cyan;
+}
+
+ul li {
+    padding: 5px;
+    background-color: greenyellow;
+    margin: 2px;
+    width: 300px;
+    border-radius: 20px;
+    list-style-type: "😁";
+    text-align: center;
+    color: white;
+}
+
+ul li:first-child {
+    background-color: yellow;
+}
+
+ul li::before {
+    content: "\2764";
+    color: red;
+}

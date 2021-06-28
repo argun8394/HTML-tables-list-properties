@@ -1,3 +1,6 @@
+/* Grup Selectörler  */
+
+
 /* div p {
     color: red;
 } */
@@ -7,6 +10,15 @@
     color: royalblue;
 } */
 
-p+div {
+
+/*  p den hemen sonra gelen divi seçmek için */
+
+
+/* p+div {
     color: seagreen;
-}
+} */
+
+
+/* div+p {
+    color: red;
+} */
